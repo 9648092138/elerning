@@ -1,0 +1,9 @@
+com/ideyatech/opentides/um/entity/BaseUserTest$1.class
+com/ideyatech/opentides/um/entity/ApplicationTest.class
+com/ideyatech/opentides/um/validator/Ot4RulesPasswordValidatorTest.class
+com/ideyatech/opentides/um/entity/BaseUserTest$FakeClaims.class
+com/ideyatech/opentides/um/entity/UserGroupTest.class
+com/ideyatech/opentides/um/repository/cb/UserEventCbListenerTest.class
+com/ideyatech/opentides/um/entity/BaseUserTest.class
+com/ideyatech/opentides/um/repository/cb/SyncGatewayRepositoryEventListenerTest.class
+com/ideyatech/opentides/um/dao/PersistenceContext.class
