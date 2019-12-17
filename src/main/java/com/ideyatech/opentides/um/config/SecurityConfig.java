@@ -79,7 +79,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter
         web
             .ignoring()
             .antMatchers("/resources*")
-            .antMatchers("/api/swagger-ui.html")
+            .antMatchers("/", "/csrf", "/v2/api-docs", "/swagger-resources/configuration/ui", 
+            		"/configuration/ui", "/swagger-resources", 
+            		"/swagger-resources/configuration/security", 
+            		"/configuration/security", "/swagger-ui.html", "/webjars/**","/swagger.json")
              //Open resources for front end
             .antMatchers(HttpMethod.GET, "/", "/home", "/**.html", "/css/**", "/images/**", "/js/**", "/main/**" )
             .antMatchers(HttpMethod.POST, "/api/application")
@@ -94,6 +97,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter
     protected void configure(HttpSecurity http) throws Exception {
         http
             .csrf().disable()
+            
             .authorizeRequests()
                 .antMatchers(HttpMethod.GET, "/api/application/{id}")
                     .hasAuthority("MANAGE_APPLICATION")

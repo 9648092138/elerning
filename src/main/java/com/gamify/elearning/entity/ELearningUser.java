@@ -18,9 +18,7 @@ import com.ideyatech.opentides.um.entity.BaseUser;
 @Table(name="ELEARNING_USER")
 public class ELearningUser extends BaseUser{
 
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = 5265225286332682678L;
 
 	@Column(name= "WEBSITE_URL")
@@ -33,6 +31,7 @@ public class ELearningUser extends BaseUser{
 	@JsonIgnore
 	private List<UserCourse> coursesTaken;
 
+	
 	@JsonBackReference
 	@ManyToOne
 	@JoinColumn(name = "COMPANY_ID")

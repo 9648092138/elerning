@@ -172,6 +172,7 @@ public class UserController extends BaseRestController<BaseUser> {
             HttpServletRequest request) {
     	
     	LOGGER.info("Registering User");
+    
     	
         Application application = applicationRepository.findByAppSecret(appSecret);
 

@@ -15,7 +15,7 @@ public class UserCourse extends BaseEntity {
     @ManyToOne
     @JoinColumn(name = "USER_ID")
     private ELearningUser user;
-
+   
     @OneToOne
     private Course course;
 
