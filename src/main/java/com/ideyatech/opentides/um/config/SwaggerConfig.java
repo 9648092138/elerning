@@ -29,8 +29,9 @@ public Docket proposalApis(){
            // .apis(RequestHandlerSelectors.any())
         .paths(PathSelectors.any())
             .apis(RequestHandlerSelectors.basePackage("com.ideyatech.opentides.um.controller"))
-        .build()
-        .apiInfo(testApiInfo());
+           // .apis(RequestHandlerSelectors.basePackage("com.gamify.elearning.controller"))
+            .build()
+            .apiInfo(testApiInfo());
 }
 
 private ApiInfo testApiInfo() {

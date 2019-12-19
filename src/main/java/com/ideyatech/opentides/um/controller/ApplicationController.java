@@ -13,6 +13,6 @@ public class ApplicationController
 {
     @RequestMapping(method = RequestMethod.GET)
     public String get() {
-        return "/main/app.html";
+        return "/home.html";
     }
 }

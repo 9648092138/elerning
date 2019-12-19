@@ -276,7 +276,13 @@ public class BaseUser extends BaseUMEntity implements JwtClaim {
     @Field
     private String googleUserId;
 
-    /**
+   
+
+	
+
+	
+
+	/**
      * Creates a clone of this object containing basic information including the
      * following: firstName, lastName, middleName, emailAddress and lastLogin.
      * This function is used to populate the user object associated to AuditLog.
@@ -287,6 +293,7 @@ public class BaseUser extends BaseUMEntity implements JwtClaim {
      */
     public BaseUser cloneUserProfile() {
         final BaseUser clone = new BaseUser();
+        // BaseUser clone = new BaseUser();
         clone.firstName = firstName;
         clone.lastName = lastName;
         clone.middleName = middleName;

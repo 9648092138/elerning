@@ -54,7 +54,7 @@ import com.ideyatech.opentides.core.service.impl.StorageServiceFileSystemImpl;
 //        "com.ideyatech.opentides.um.controller",
 //        "com.gamify.elearning.controller"})
 @EnableAsync
-
+//@EnableOAuth2Sso
 public class Application {
 	
     private static Class entityIdType;
