@@ -99,6 +99,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter
             		"/configuration/ui", "/swagger-resources", 
             		"/swagger-resources/configuration/security", 
             		"/configuration/security", "/swagger-ui.html", "/webjars/**","/swagger.json")
+            .antMatchers("/","/goglelogin")
              //Open resources for front end
             .antMatchers(HttpMethod.GET, "/", "/home", "/**.html", "/css/**", "/images/**", "/js/**", "/main/**" )
             .antMatchers(HttpMethod.POST, "/api/application")
