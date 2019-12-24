@@ -1,0 +1,33 @@
+.border-bottom td {
+    border-right: 1px solid #dee2e6;
+    padding: 12px 70px;
+}
+td.border-none {
+    border-right: none !important;
+}
+.break-table th ,.grey-clr{
+    color: #B9B9B9;
+    font-size: 12px;
+}
+
+.image-upload > input
+{
+    display: none;
+}
+
+.image-upload img
+{
+    width: 50px;
+    cursor: pointer;
+}
+.list-from label {
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+.list-from .form-group {
+    margin-bottom: 6px;
+}
+::placeholder {
+    color: #B9B9B9;
+    font-size: 14px;
+}

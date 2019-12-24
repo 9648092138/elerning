@@ -1,0 +1,58 @@
+<span id="iconClick"class="iconChange" (click)="toggleClass();"><i class="material-icons">keyboard_arrow_right
+</i></span>
+
+        <nav class="nav flex-column text-center box-shadow-r nav-style bg-white ">
+            <div class="t-menu pt-2">
+                <ul class="list-unstyled">
+                    <li class="nav-item pt-4 pb-4">
+                        <a class="nav-link active" href="#"> 
+                        <img class="img-fluid man-img" src="assets/img/img1.png" alt="img1"></a>
+                    </li>
+                    <li class="nav-item  pb-2">
+                        <a class="nav-link " href="#" >My School</a>
+                    </li>
+                    <li class="nav-item pt-4 pb-4">
+                        <a class="nav-link" href="javascript:void(0);">
+                            <span class="" routerLink="/your-classroom" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Your Classroom 
+                            </span>
+                            <span><i routerLink="/basicinfo" class="material-icons">add_circle</i></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="m-menu">
+                <ul class="list-unstyled pt-4 pb-4">
+                    <li class="nav-item  pb-2">
+                        <a class="nav-link "routerLink="/students" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Students</a>
+                    </li>
+                    <li class="nav-item pb-2">
+                        <a class="nav-link " routerLink="/theme" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Your Site</a>
+                    </li>
+                    <li class="nav-item pb-2">
+                        <a class="nav-link "  routerLink="/transaction" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Sales</a>
+                    </li>
+                    <li class="nav-item  pb-2">
+                        <a class="nav-link "routerLink="/account" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Emails</a>
+                    </li>
+                    <li class="nav-item pb-2">
+                        <a class="nav-link "routerLink="/general" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Settings</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="b-menu">
+                <ul class="list-unstyled pt-2 pb-2">
+                    <li class="nav-item  pb-2">
+                        <a class="nav-link " routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Profile</a>
+                    </li>
+                    <li class="nav-item pb-2">
+                        <a class="nav-link " routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" >Your Plan</a>
+                    </li>
+                    <li class="nav-item pb-2">
+                        <a class="nav-link "routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Support</a>
+                    </li>        
+                </ul>
+                <button type="submit" class="btn Orng-btn w-100">Logout</button>
+            </div>
+        </nav>
+
+

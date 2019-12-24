@@ -1,0 +1,18 @@
+.set-home {
+    width: 50%;
+}
+.image-upload img {
+    width: 50px;
+    cursor: pointer;
+}
+.image-upload > input
+{
+    display: none;
+}
+.grey-clr{
+    color: #898989;
+}
+.d-border {
+    border: 1px dotted #707070;
+    border-radius: 20px;
+}

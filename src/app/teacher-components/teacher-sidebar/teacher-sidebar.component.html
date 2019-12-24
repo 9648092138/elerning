@@ -1,0 +1,48 @@
+<span id="iconClick"class="iconChange" (click)="toggleClass();"><i class="material-icons">keyboard_arrow_right
+    </i></span>
+    <nav class="nav flex-column text-center box-shadow-r">
+        <div class="t-menu ">
+            <ul class="list-unstyled">
+                <li class="nav-item pt-1 pb-1">
+                    <a class="nav-link active" href="#"> 
+                    <img class="img-fluid " src="assets/img/tech-logo2.png" alt="img1"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="m-menu">
+                <ul class="list-unstyled ">
+                   <li class="nav-item pb-2">
+                    <a class="nav-link" href="javascript:void(0);">
+                        <span class="" routerLink="/sethomwork" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Set Homework 
+                        </span>
+                        <span><i routerLink="/tbasicinfo" class="material-icons">add_circle</i></span>
+                    </a>
+                    </li>
+                    <li class="nav-item pb-2">
+                        <a class="nav-link "  routerLink="/setassignment" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Set Assignment</a>
+                    </li>
+                </ul>
+            </div>
+        <div class="m-menu">
+            <ul class="list-unstyled pt-4 pb-4">
+               <li class="nav-item pb-2">
+                    <a class="nav-link " routerLink="/tstudents" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Students</a>
+                </li>
+                <li class="nav-item pb-2">
+                    <a class="nav-link "  routerLink="/ttemplate" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Emails</a>
+                </li>
+            </ul>
+        </div>
+        <div class="b-menu">
+            <ul class="list-unstyled pt-2 pb-2">
+                <li class="nav-item  pb-2">
+                    <a class="nav-link " routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Profile</a>
+                </li>
+                 <li class="nav-item pb-2">
+                    <a class="nav-link "routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Support</a>
+                </li>        
+            </ul>
+            <button type="submit" class="btn yellow-btn w-100">Logout</button>
+        </div>
+    </nav>
+    

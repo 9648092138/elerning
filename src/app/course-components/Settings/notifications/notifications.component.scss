@@ -1,0 +1,73 @@
+.payment-img{
+    width:70%;
+}
+.switch-bg .switch {
+    position: relative;
+    display: inline-block;
+    width: 43px;
+    height: 21px;
+  }
+  
+  .switch-bg .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .switch-bg .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    transition: 0.4s;
+    border: 2px solid #DDDDDD;
+
+  }
+  
+  .switch-bg .slider:before {
+    position: absolute;
+    content: "";
+    height: 19px;
+    width: 19px;
+    left: -4px;
+    bottom: -1px;
+    background-color: #DDDDDD;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .switch-bg input:checked + .slider {
+    background-color: transparent;
+    border:2px solid #71BF5B;
+  }
+ 
+  .switch-bg input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    background: #71BF5B;
+  }
+
+  /* Rounded sliders */
+  .switch-bg .slider.round {
+    border-radius: 34px;
+  }
+  
+  .switch-bg .slider.round:before {
+    border-radius: 50%;
+  }
+  .rounded-shadow .table td{
+    font-size: 13px !important;
+}
+.rounded-shadow .table thead th {
+    font-size: 16px !important;
+}
+.navi-table .table td, .table th{
+    padding: 7px 17px !important;
+}
+.table-p .table td, .table th{
+    padding: 7px 12px !important;
+}

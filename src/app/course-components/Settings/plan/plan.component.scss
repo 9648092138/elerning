@@ -1,0 +1,74 @@
+
+.plan-btn .btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px !important;
+}
+.green-bg {
+    background: #71C15B;
+}
+button.btn.grey-outline {
+    border: 2px solid #707070;
+    color: #707070;
+}
+.car-h {
+    height: 450px;
+}
+.grey-bg{
+    background-color: #CBCBCB;
+}
+button.btn.yellow-btn{
+    background: #FFAC00;
+}
+.card-btn .btn{
+    font-size:13px;
+    height: 35px;
+    margin-top: -26px;
+    width: 125px;
+    
+}
+// Varibles
+// $main-font: 'Roboto',sans-serif;
+// $primary-color: #57e2b2;
+$light-gray: #f8f8f8;
+$main-font-color: #808080;
+$main-font-weight: 300;
+
+// Tables
+.card {
+
+  transition: all .3s ease-in-out;
+//   padding: 2.25rem 0;
+  position: relative;
+  will-change:transform; 
+  
+  
+  &:hover {
+    transform: scale(1.05);
+    -webkit-box-shadow: 0 20px 35px 0 rgba(0, 0, 0, .08);
+    box-shadow: 0 20px 35px 0 rgba(0, 0, 0, .08);
+    cursor: pointer;
+    
+    &:after {
+      width: 100%;
+    }
+    
+  }
+  & .card-header {
+    // background-color: white;
+    // padding-left: 2rem;
+    border-bottom: 0px;
+    color: #fff;
+    border-bottom-right-radius: 9px !important;
+    border-bottom-left-radius: 9px !important;
+    padding: 30px 30px 40px 30px;
+}
+  & .card-title {
+    margin-bottom: 1rem;
+  }
+ 
+  
+}
+.card-header:first-child {
+    border-radius: 9px !important;
+}

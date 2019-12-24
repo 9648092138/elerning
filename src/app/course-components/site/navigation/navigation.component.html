@@ -1,0 +1,261 @@
+<section class="dashboard-bg">
+    <div class="container-fluid p-0">
+        <div class="">
+                <div class="w-20 float-left box-shadow-r calc_height scrollbar" id="sideNav">
+                    <div class="bg-white ">
+                        <app-sidebar></app-sidebar>
+                    </div>
+             </div>
+            <div class="w-70 float-left mobileDashboard  main-style" id="extendWidth">
+               <app-site-header></app-site-header>
+                <div class="main-dashboard pt-5 ">
+                    <div class="container">
+                        <div class="w-80 mt-4 mb-2 m-auto">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="theme-l-content">
+                                        <h6 class="font-weight-bold pb-2">Set Homepage</h6>
+                                        <p>Set up which page you’d like as your school’s homepage. Decide what your students see if they’re logged in or logged out.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 mb-2">
+                                    <div class="rounded-shadow theme-r-content pt-3 pb-3 pl-5 pr-5 ">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class=" font-weight-bold pb-2">Logged in</label>
+                                                        <select class="btn-outline form-control">
+                                                            <option>Homepage</option>
+                                                            <option>Homepage 2</option>
+                                                            <option>Homepage 3</option>
+                                                            <option>Homepage 4</option>
+                                                            <option>Homepage 5</option>
+                                                            <option>Homepage 6</option>
+                                                        </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class=" font-weight-bold pb-2">Logged out</label>
+                                                        <select class="btn-outline form-control">
+                                                            <option>Logged in</option>
+                                                            <option>Heading 2</option>
+                                                            <option>Heading 3</option>
+                                                            <option>Heading 4</option>
+                                                            <option>Heading 5</option>
+                                                            <option>Heading 6</option>
+                                                        </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row mt-4 mb-4">
+                                    <div class="col-lg-4">
+                                        <div class="theme-l-content">
+                                                <h6 class=" font-weight-bold pb-2">Navigation Bar</h6>
+                                                <p>Control what your students can see on your homepage, whether they’re logged in or out.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="rounded-shadow theme-r-content pt-3 pb-3 pl-5 pr-5 navi-table">
+                                            <table class="table table-borderless table-responsive ">
+                                                <thead>
+                                                  <tr class="border-bottom ">
+                                                    <th>Name</th>
+                                                    <th>URL</th>
+                                                    <th>Visibility</th>
+                                                    <th>Enable</th>
+                                                    <th></th>
+                                                  </tr>
+                                                  
+                                                </thead> 
+                                                <tbody class="top-p"><br>
+                                                  <tr >
+                                                    <td>My Courses</td>
+                                                    <td>/mycourses</td>
+                                                    <td>Logged in</td>
+                                                    <td class="switch-bg">
+                                                        <label class="switch">
+                                                        <input type="checkbox" checked>
+                                                        <span class="slider round"></span>
+                                                      </label>
+                                                    </td>
+                                                    <td>
+                                                        <button type="submit" class="btn-edit mr-1">Edit</button>
+                                                        <span class="delete-icon"><i class="fa fa-trash" aria-hidden="true"></i></span>
+                                                    </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>All Courses</td>
+                                                    <td>/courses</td>
+                                                    <td>Logged out</td>
+                                                    <td class="switch-bg">
+                                                        <label class="switch">
+                                                        <input type="checkbox"  checked>
+                                                        <span class="slider round"></span>
+                                                        </label>
+                                                    </td>
+                                                    <td>
+                                                        <button type="submit" class="btn-edit mr-1">Edit</button>
+                                                        <span class="delete-icon"><i class="fa fa-trash" aria-hidden="true"></i></span>
+                                                    </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>Sign In</td>
+                                                    <td>/mycourses</td>
+                                                    <td>Logged in</td>
+                                                    <td class="switch-bg">
+                                                            <label class="switch">
+                                                            <input type="checkbox" >
+                                                            <span class="slider round"></span>
+                                                          </label>
+                                                        </td>
+                                                    <td>
+                                                        <button type="submit" class="btn-edit mr-1">Edit</button>
+                                                        <span class="delete-icon"><i class="fa fa-trash" aria-hidden="true"></i></span>
+                                                    </td>
+                                                  </tr>
+                                                  <tr>
+                                                      <td>Sign Out</td>
+                                                      <td>/courses</td>
+                                                      <td>Logged out</td>
+                                                      <td class="switch-bg">
+                                                        <label class="switch">
+                                                        <input type="checkbox" checked>
+                                                        <span class="slider round"></span>
+                                                        </label>
+                                                    </td>
+                                                    <td>
+                                                        <button type="submit" class="btn-edit mr-1">Edit</button>
+                                                        <span class="delete-icon"><i class="fa fa-trash" aria-hidden="true"></i></span>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                             </div>
+                            <hr>
+                            <div class="row mt-4 mb-4">
+                                    <div class="col-lg-4">
+                                        <div class="theme-l-content">
+                                                <h6 class=" font-weight-bold pb-2">Footer</h6>
+                                                <p>Edit what content is visible in your footer</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="rounded-shadow theme-r-content pt-3 pb-3 pl-5 pr-5 table-p">
+                                                <table class="table table-borderless table-responsive ">
+                                                        <thead>
+                                                          <tr class="border-bottom ">
+                                                            <th>Title</th>
+                                                            <th>URL</th>
+                                                            <th>Visibility</th>
+                                                            <th>New Tab</th>
+                                                            <th>Enable</th>
+                                                            <th></th>
+                                                          </tr>
+                                                          
+                                                        </thead> 
+                                                        <tbody><br>
+                                                          <tr>
+                                                            <td>Terms</td>
+                                                            <td>/terms</td>
+                                                            <td>Logged in</td>
+                                                            <td class="switch-bg">
+                                                                    <label class="switch">
+                                                                    <input type="checkbox" checked>
+                                                                    <span class="slider round"></span>
+                                                                  </label>
+                                                                </td>
+                                                            <td class="switch-bg">
+                                                                <label class="switch">
+                                                                <input type="checkbox" checked>
+                                                                <span class="slider round"></span>
+                                                              </label>
+                                                            </td>
+                                                            <td>
+                                                                <button type="submit" class="btn-edit mr-1">Edit</button>
+                                                                <span class="delete-icon"><i class="fa fa-trash" aria-hidden="true"></i></span>
+                                                            </td>
+                                                          </tr>
+                                                          <tr>
+                                                            <td>Privacy</td>
+                                                            <td>/privacy</td>
+                                                            <td>Logged out</td>
+                                                            <td class="switch-bg">
+                                                                    <label class="switch">
+                                                                    <input type="checkbox"  checked>
+                                                                    <span class="slider round"></span>
+                                                                    </label>
+                                                                </td>
+                                                            <td class="switch-bg">
+                                                                <label class="switch">
+                                                                <input type="checkbox"  checked>
+                                                                <span class="slider round"></span>
+                                                                </label>
+                                                            </td>
+                                                            <td>
+                                                                <button type="submit" class="btn-edit mr-1">Edit</button>
+                                                                <span class="delete-icon"><i class="fa fa-trash" aria-hidden="true"></i></span>
+                                                            </td>
+                                                          </tr>
+                                                          <tr>
+                                                            <td>Support</td>
+                                                            <td>/support</td>
+                                                            <td>Logged in</td>
+                                                            <td class="switch-bg">
+                                                                <label class="switch">
+                                                                <input type="checkbox" >
+                                                                <span class="slider round"></span>
+                                                                </label>
+                                                            </td>
+                                                            <td class="switch-bg">
+                                                                    <label class="switch">
+                                                                    <input type="checkbox" >
+                                                                    <span class="slider round"></span>
+                                                                  </label>
+                                                                </td>
+                                                            <td>
+                                                                <button type="submit" class="btn-edit mr-1">Edit</button>
+                                                                <span class="delete-icon"><i class="fa fa-trash" aria-hidden="true"></i></span>
+                                                            </td>
+                                                          </tr>
+                                                          <tr>
+                                                              <td>Plan</td>
+                                                              <td>/plan</td>
+                                                              <td>Logged out</td>
+                                                              <td class="switch-bg">
+                                                                    <label class="switch">
+                                                                    <input type="checkbox" checked>
+                                                                    <span class="slider round"></span>
+                                                                    </label>
+                                                                </td>
+                                                              <td class="switch-bg">
+                                                                <label class="switch">
+                                                                <input type="checkbox" checked>
+                                                                <span class="slider round"></span>
+                                                                </label>
+                                                            </td>
+                                                            <td>
+                                                                <button type="submit" class="btn-edit mr-1">Edit</button>
+                                                                <span class="delete-icon"><i class="fa fa-trash" aria-hidden="true"></i></span>
+                                                            </td>
+                                                          </tr>
+                                                        </tbody>
+                                                    </table>  
+                                        </div>
+                                    </div>
+                             </div>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+    </div>
+</section>

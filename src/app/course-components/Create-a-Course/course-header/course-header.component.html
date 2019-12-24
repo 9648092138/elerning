@@ -1,0 +1,26 @@
+<span class="toggler float-right" onclick="myFunction()"><i class="fa fa-bars" aria-hidden="true"></i></span>
+<header class="box-shadow p-2 course-head">
+    <div class="header-menu "  id="header">
+        <div class="row">
+            <div class="col-lg-3">
+                   <h5 class="pl-5 font-weight-bold pt-1">Create a Course</h5>
+            </div>
+            <div class="col-lg-5">
+                <ul class="list-unstyled list-color text-center mb-2">
+                    <li class="nav-item d-inline-block"><a class="nav-link"routerLink="/basicinfo" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"
+                        >Basic Info</a></li>
+                    <li class="nav-item d-inline-block"><a class="nav-link" routerLink="/curriculum"routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Curriculum</a></li>
+                    <li class="nav-item d-inline-block"><a class="nav-link"routerLink="/pricing" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Pricing</a></li>
+                    <li class="nav-item d-inline-block"><a class="nav-link" routerLink="/flatpack" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Flat-Pack</a></li>
+                    <li class="nav-item d-inline-block"><a class="nav-link"routerLink="/reports" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Reports</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <div class="course-btn  btn-group">
+                    <button type="button" class="btn orange-clr  mr-3 w-btn">SAVE</button>
+                    <button type="button" routerLink="/coursepreview" class="btn orange-clr-outline w-btn">PREVIEW</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

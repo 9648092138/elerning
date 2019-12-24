@@ -1,0 +1,17 @@
+.pr-img img {
+    width: 70%;
+}
+.p-content h6 {
+    font-size: 14px;
+}
+.p-content p {
+    font-size: 12px;
+}
+
+.upload-btn-wrapper input[type=file] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+  }

@@ -1,0 +1,90 @@
+.set-home {
+    width: 50%;
+}
+.image-upload img {
+    width: 50px;
+    cursor: pointer;
+}
+.image-upload > input
+{
+    display: none;
+}
+.grey-clr{
+    color: #898989;
+}
+.d-border {
+    border: 1px dotted #707070;
+    border-radius: 20px;
+}
+.image-upload > input
+{
+    display: none;
+}
+
+.image-upload img
+{
+    width: 50px;
+    cursor: pointer;
+}
+.upload-bg{
+    background: #F7F7F7;
+    box-shadow: 0 1px 3px 1px #0000002b;
+    border-radius: 20px;
+    min-height: 198px;
+    padding: 70px 0 0 0;
+}
+.upload-text img {
+    width: 50%;
+}
+.pr-img img {
+    width: 50%;
+}
+.p-content h6 {
+    font-size: 14px;
+}
+.p-content p {
+    font-size: 12px;
+}
+.swap-bg{
+    background: #fff;
+    transition: opacity .5s linear;
+    color: #000;
+    box-shadow: 0 1px 3px 1px #0000002b;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.swap-bg:hover{
+    background: #FF7200;
+    color: #fff; 
+    
+}
+.swap-bg .swap-on-hover {
+    position: relative;	
+      margin:  0 auto;
+  }
+ .swap-bg .swap-on-hover img {
+    position: absolute;
+    top:0;
+    left:55%;
+    overflow: hidden;
+  }
+  .swap-bg .swap-on-hover .swap-on-hover__front-image {
+    z-index: 1;
+    transition: opacity .5s linear;
+    cursor: pointer;
+  }
+  
+  .swap-bg:hover .swap-on-hover> .swap-on-hover__front-image{
+    opacity: 0;
+  }
+  .flat-input label {
+    margin: 0;
+    font-size: 12px;
+}
+.flat-input .input-group-text {
+    background-color: transparent !important;
+    height: calc(1.2em + .75rem + 2px) !important;
+}
+.flat-input .form-control{
+    height: calc(1.2em + .75rem + 2px) !important;
+}
